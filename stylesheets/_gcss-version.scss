@@ -1,0 +1,10 @@
+@mixin gcss-version($partial: false) {
+  $version: 'v0.0.1';
+  
+  @if $partial {
+    /*! GCSS #{$version} | #{$partial} */
+  }
+  @else {
+    /*! GCSS #{$version} */
+  }
+}

@@ -1,0 +1,1 @@
+Compass::Frameworks.register("compass-gcss", :path => "#{File.dirname(__FILE__)}/..")
