@@ -8,7 +8,7 @@ This simple plugin for [Compass](http://compass-style.org/) enables you to use [
 You can also install the gem from your local clone:
 
 ```
-$ git clone git://github.com/ksmandersen/compass-normalize.git
+$ git clone https://github.com/hoffman211/compass-gcss.git
 $ rake build
 $ rake install
 ```
