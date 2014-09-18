@@ -5,7 +5,7 @@ This simple plugin for [Compass](http://compass-style.org/) enables you to use [
 
 ## Installation
 
-You can also install the gem from your local clone:
+You can install the gem from your local clone:
 
 ```
 $ git clone https://github.com/hoffman211/compass-gcss.git
