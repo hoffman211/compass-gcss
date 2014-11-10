@@ -1,0 +1,25 @@
+@include gcss-version('Mixins');
+
+// ==========================================================================
+// Mixins
+// ==========================================================================
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+%button {
+	background: yellow;
+	color: $primary-color;
+	@include border-radius(10px);
+}
+
+.cta {
+  @extend %button;
+  border-color: green;
+  background: $secondary-color;
+}

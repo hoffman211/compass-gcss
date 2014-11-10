@@ -3,6 +3,15 @@
 This simple plugin for [Compass](http://compass-style.org/) enables you to use [GCSS](http://test.com/) in your stylesheets without having to download it.
 
 
+## Prerequisites
+
+- Install GEM
+	- https://rubygems.org/pages/download
+- Install bundler
+	- gem install bundler
+- Install Compass
+	- http://compass-style.org/install/
+
 ## Installation
 
 You can install the gem from your local clone:
@@ -39,3 +48,14 @@ You can also just import parts you need:
 @import 'gcss/base';
 
 ```
+
+
+## Removing old GEMs
+
+Use following command to preview what will be removed.
+
+- gem cleanup --dryrun
+
+To remove use the following
+
+-  gem cleanup

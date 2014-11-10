@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   # Release information
-  s.version = "0.1"
-  s.date = "2014-09-18"
+  s.version = "0.2"
+  s.date = "2014-11-10"
 
   # Gem details
   s.name = "compass-gcss"

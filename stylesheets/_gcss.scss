@@ -3,4 +3,6 @@
 @include gcss-version;
 
 // GCSS Partial Imports
+@import 'gcss/vars';
 @import 'gcss/base';
+@import 'gcss/mixins';
