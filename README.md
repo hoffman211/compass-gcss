@@ -7,8 +7,13 @@ This simple plugin for [Compass](http://compass-style.org/) enables you to use [
 
 - Install GEM
 	- https://rubygems.org/pages/download
+
 - Install bundler
-	- gem install bundler
+	
+	```
+	$ gem install bundler
+	```
+
 - Install Compass
 	- http://compass-style.org/install/
 
@@ -20,6 +25,12 @@ You can install the gem from your local clone:
 $ git clone https://github.com/hoffman211/compass-gcss.git
 $ rake build
 $ rake install
+```
+
+You can also download the .gem from the pkg folder and run the following command
+
+```
+$ gem install <path/to/gem.gem>
 ```
 
 ## Usage
